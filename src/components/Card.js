@@ -38,7 +38,7 @@ class Card extends Component {
     }
 
     render() {
-        const thumbnailURL = window.location.origin + `/resource/${this.props.info.name}`;
+        const thumbnailURL = process.env.PUBLIC_URL + `/resource/${this.props.info.name}`;
         return (
             <div className="col-md-4 d-flex align-items-sketch">
                 <div className="card mb-0 my-3 box-shadow">
