@@ -38,11 +38,12 @@ class Card extends Component {
     }
 
     render() {
+        
         const thumbnailURL = process.env.PUBLIC_URL + `/resource/${this.props.info.name}`;
         return (
             <div className="col-md-4 d-flex align-items-sketch">
                 <div className="card mb-0 my-3 box-shadow">
-                    <img className="img-thumbnail" src={thumbnailURL} /> 
+                    <img className="img-thumbnail" src={thumbnailURL} alt="Thumbnail"/> 
                     <div className="card-body">
                         <p className="card-text"> {this.props.info.desc}</p>
                         <div className="d-flex justify-content-between align-items-center">
@@ -54,7 +55,7 @@ class Card extends Component {
                                     style={customStyles}
                                     contentLabel="Example Modal">
                                         <p className="text-center">{this.props.info.desc}</p>
-                                        <img src={thumbnailURL} />
+                                        <img src={thumbnailURL} alt="Thumbnail" />
                                         <button onClick={this.closeModal}>close</button>
                                 </Modal>
                             <small className="text-muted">Năm chụp: {this.props.info.takenYear}</small>

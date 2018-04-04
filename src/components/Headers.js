@@ -14,13 +14,13 @@ class Headers extends Component {
                             <h4 className="text-white">Contact</h4>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a className="text-white" href="https://twitter.com/ngminhtrung" target="_blank">Follow on Twitter</a>
+                                    <a className="text-white" href="https://twitter.com/ngminhtrung" target="_blank" rel="noopener noreferrer">Follow on Twitter</a>
                                 </li>
                                 <li>
-                                    <a className="text-white" href="https://github.com/ngminhtrung" target="_blank">My Github</a>
+                                    <a className="text-white" href="https://github.com/ngminhtrung" target="_blank" rel="noopener noreferrer">My Github</a>
                                 </li>
                                 <li>
-                                    <a className="text-white" href="http://travisnguyen.net" target="_blank">My blog</a>
+                                    <a className="text-white" href="http://travisnguyen.net" target="_blank" rel="noopener noreferrer">My blog</a>
                                 </li>
                             </ul>
                         </div>

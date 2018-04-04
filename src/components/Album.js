@@ -42,7 +42,6 @@ const imageData = [
 class Album extends Component {
 
     render() {
-
         const cardItems = imageData.map((image) => {
             return <Card 
                         key={image.name} 
