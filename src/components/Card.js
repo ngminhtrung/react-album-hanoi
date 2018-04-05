@@ -41,9 +41,9 @@ class Card extends Component {
         
         const thumbnailURL = process.env.PUBLIC_URL + `/resource/${this.props.info.name}`;
         return (
-            <div className="col-md-4 d-flex align-items-sketch">
-                <div className="card mb-0 my-3 box-shadow">
-                    <img className="img-thumbnail" src={thumbnailURL} alt="Thumbnail"/> 
+            <div className="col-md-3 d-flex align-items-sketch">
+                <div className="card mb-0 my-3 box-shadow w-100">
+                    <img className="img-thumbnail w-100" src={thumbnailURL} alt="Thumbnail"/> 
                     <div className="card-body">
                         <p className="card-text"> {this.props.info.desc}</p>
                         <div className="d-flex justify-content-between align-items-center">
